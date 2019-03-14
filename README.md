@@ -1,16 +1,15 @@
 # aXe Reports
 
-[![Version](https://img.shields.io/npm/v/axe-reports.svg)](https://www.npmjs.com/package/axe-reports)
-[![License](https://img.shields.io/npm/l/axe-reports.svg)](http://opensource.org/licenses/MIT)
+[![npm version](https://badge.fury.io/js/%40ictu%2Faxe-reports.svg)](https://badge.fury.io/js/%40ictu%2Faxe-reports)
+[![Build Status](https://travis-ci.org/ICTU/axe-reports.svg?branch=master)](https://travis-ci.org/ICTU/axe-reports)
+
 
 Create human readable reports from the results object created by the aXe analyze function.
 
 ## Getting Started
 
-Install aXe Reports
-
 ```
-npm install axe-reports
+npm install @ictu/axe-reports
 ```
 
 ### Prerequisites
@@ -35,10 +34,8 @@ npm install axe-webdriverjs
 
 ### Installing
 
-Install aXe Reports
-
 ```
-npm install axe-reports
+npm install @ictu/axe-reports
 ```
 
 ## Usage
@@ -103,7 +100,7 @@ AxeReports.createTsvReport(results);
 
 ```
 var AxeBuilder = require('axe-webdriverjs'),
-    AxeReports = require('axe-reports'),
+    AxeReports = require('@ictu/axe-reports'),
     webdriver = require('selenium-webdriver'),
     By = webdriver.By,
     until = webdriver.until;
@@ -136,7 +133,7 @@ driver.quit();
 
 ```
 var AxeBuilder = require('axe-webdriverjs'),
-    AxeReports = require('axe-reports'),
+    AxeReports = require('@ictu/axe-reports'),
     webdriver = require('selenium-webdriver'),
     By = webdriver.By,
     until = webdriver.until;
@@ -170,7 +167,7 @@ driver.quit();
 
 ```
 var AxeBuilder = require('axe-webdriverjs'),
-    AxeReports = require('axe-reports'),
+    AxeReports = require('@ictu/axe-reports'),
     webdriver = require('selenium-webdriver'),
     By = webdriver.By,
     until = webdriver.until;
@@ -210,15 +207,3 @@ node csv_testname => results.csv
 ```
 node tsv_testname => results.tsv
 ```
-
-## Authors
-
-**Louis Reed** - [Louis Reed](https://github.com/louis-reed)
-
-## License
-
-This project is licensed under the MIT License
-
-## Acknowledgments
-
-Thanks to [Deque](http://www.deque.com/products/aXe/) for creating and supporting aXe!

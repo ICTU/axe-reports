@@ -1,6 +1,6 @@
 {
-  "name": "axe-reports",
-  "version": "1.1.11",
+  "name": "@ictu/axe-reports",
+  "version": "1.1.12",
   "description": "Create human readable reports from the results object created by the aXe analyze function.",
   "main": "axe-reports.js",
   "scripts": {
@@ -12,7 +12,7 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "louis-reed"
+    "url": "https://github.com/ICTU/axe-reports.git"
   },
   "keywords": [
     "accessibility",
@@ -22,5 +22,8 @@
     "report",
     "tsv",
     "csv"
-  ]
+  ],
+  "publishConfig": {
+    "@ictu:registry": "https://registry.npmjs.org"
+  }
 }
